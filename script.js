@@ -12,21 +12,22 @@ function f_red(r)
  console.log(`Vermelho é ${red}`)
  
 }
+
 function f_green(g)
 {
  document.getElementById("green_value").innerHTML=g;
- green=g
+ green = g
 console.log(`Verde é ${green}`)
 }
+
 function f_blue(b)
 {
  document.getElementById("blue_value").innerHTML=b;
- let blue = b 
  blue=b
  console.log(`Azul é ${blue}`)
 }
 
 function definir_cor(){
-    document.getElementById("quadrado").style.backgroundColor = `rgb(${red},${green},${blue})`;
+    document.getElementById("quadrado").style.backgroundColor = `rgb(${red},${green},${blue},1)`;                    
 }
 

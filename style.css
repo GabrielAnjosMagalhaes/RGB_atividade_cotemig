@@ -8,12 +8,21 @@ body{
     height: 200px;
     margin: 2% 
 }
-#text_blue{
-    margin: 5px;
+#blue{
+    margin: 1%;
 }
-#text_red{
-    margin: 5px;
+#red{
+    margin: 1%;
 }
-#text_green{
-    margin: 5px;
+#green{
+    margin: 1%;
+}
+#btn_cor{
+    background-color: #005555;
+    color: aqua;
+    margin-top:1%;
+    margin-left:2%;
+    margin-right:2%;
+    margin-bottom:0%;
+    
 }
