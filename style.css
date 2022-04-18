@@ -1,0 +1,19 @@
+body{
+    background-color: #005555;
+    color: aliceblue;
+}
+#quadrado{
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    margin: 2% 
+}
+#text_blue{
+    margin: 5px;
+}
+#text_red{
+    margin: 5px;
+}
+#text_green{
+    margin: 5px;
+}

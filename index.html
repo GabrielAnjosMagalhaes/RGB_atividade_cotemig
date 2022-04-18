@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade RGB</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<br>
+    <script src="script.js"></script>
+    <h1>Testando</h1>
+    <form>
+
+        <label for="red">Red (vermelho):</label><br>
+        0 <input type="range" id="red" name="red" min="0" max="255" value="0" onchange="f_red(this.value);"> 255  <span id="red_value" style="color:red;font-weight:bold;">0</span></br>
+       
+        <label for="green">Green (verde):</label><br>
+         0 <input type="range" id="green" name="green" min="0" max="255" value="0" onchange="f_green(this.value);" > 255 <span id="green_value" style="color:greenyellow;font-weight:bold;">0</span></br>
+        
+         <label for="blue">Blue (azul):</label><br>
+        0 <input type="range" id="blue" name="blue" min="0" max="255" value="0" onchange="f_blue(this.value)"> 255 <span id="blue_value" style="color:aqua;font-weight:bold;">0</span></br>
+    </form>
+    <button type="button" onclick="definir_cor()">Descobrir cor</button>
+<div id="quadrado"></div>
+</body>
+</html>
